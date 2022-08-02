@@ -1,9 +1,12 @@
 * {
-    padding: 0;
     margin: 0;
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 body {
@@ -99,44 +102,90 @@ header #check {
 }
 
 #proyectos{
-    padding-left: 6.5%;
-    padding-bottom: 500px;
-}
-
-#proyectos .texto{
-    text-align: center;
+    padding-bottom: 50px;
 }
 
 #proyectos h2{
     font-size: 60px;
     text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#proyectos .container3{
+    display: flex;
+    align-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#proyectos .iframeuno iframe{
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+#proyectos .iframedos iframe{
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+#proyectos .iframetres iframe{
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+#acercademi {
+    padding: 100px;
+    background-color: #1c2021;
+}
+
+#acercademi h2{
+    font-size: 80px;
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
-
-#proyectos .iframeuno iframe{
-    float: left;
-    width: 30%;
-        padding-left: 1.5%;
-            padding-right: 1.5%;
-            padding-bottom: 5%;
+#acercademi p{
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 120px;
 }
 
-#proyectos .iframedos iframe{
-    float: left;
-    width: 30%;
-        padding-left: 1.5%;
-            padding-right: 1.5%;
-            padding-bottom: 5%;
+#acercademi img{
+    float: right;
 }
 
-#proyectos .iframetres iframe{    
-    float: left;
-    width: 30%;
-        padding-left: 1.5%;
-            padding-right: 1.5%;
-            padding-bottom: 5%;
+#habilidades {
+    padding: 100px;
+}
+
+#habilidades h2{
+    font-size: 80px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+#habilidades p{
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 120px;
+}
+
+#habilidades ul{
+    float: right;
+    padding-right: 100px;
+    font-weight: bold;
+    padding-bottom: 150px;
+    padding-top: 50px;
+}
+
+#habilidades progress{
+    height: 50px;
+    width: 500px;
+}
+
+footer {
+    display: none;
 }
 
 @media (max-width: 858px) {
